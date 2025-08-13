@@ -1,0 +1,99 @@
+{% extends "authapp/base.html" %}
+
+{% block title %}Home - FitPro Gym{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold mb-4">Transform Your Body</h1>
+                <p class="lead mb-4">Join our fitness community and achieve your goals.</p>
+                <button class="btn btn-primary btn-lg me-2">Join Now</button>
+                <button class="btn btn-outline-light btn-lg">Our Classes</button>
+            </div>
+            <div class="col-lg-6">
+                <div class="bg-secondary text-white p-5 rounded">
+                    <p>Image placeholder</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2>Why Choose Us</h2>
+            <p class="lead">We offer everything you need</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-dumbbell fa-3x text-primary mb-3"></i>
+                        <h4>Modern Equipment</h4>
+                        <p>State-of-the-art machines for all your training needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                        <h4>Expert Trainers</h4>
+                        <p>Certified professionals to guide you.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-clock fa-3x text-primary mb-3"></i>
+                        <h4>Flexible Hours</h4>
+                        <p>Open 24/7 for your convenience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Classes Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2>Our Classes</h2>
+            <p class="lead">Join our popular fitness classes</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Cardio Blast</h5>
+                        <p class="card-text">High-intensity cardio workout.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Yoga Flow</h5>
+                        <p class="card-text">Improve flexibility and mindfulness.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Strength Training</h5>
+                        <p class="card-text">Build muscle and increase power.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
